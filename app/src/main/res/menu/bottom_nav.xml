@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/trending_tab"
+        android:title="@string/trending"
+        android:icon="@drawable/ic_trending"
+        />
+
+    <item
+        android:id="@+id/veg_tab"
+        android:title="@string/veg"
+        android:icon="@drawable/ic_veg_foreground"
+        />
+
+    <item
+        android:id="@+id/vegan_tab"
+        android:title="@string/vegan"
+        android:icon="@drawable/ic_vegan_foreground"/>
+
+    <item
+        android:id="@+id/non_veg_tab"
+        android:title="@string/non_veg"
+        android:icon="@drawable/ic_non_veg_foreground"
+        />
+</menu>
